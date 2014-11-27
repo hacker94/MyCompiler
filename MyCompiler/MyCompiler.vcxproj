@@ -78,6 +78,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CharCon.h" />
+    <ClInclude Include="Lexer.h" />
+    <ClInclude Include="Num.h" />
+    <ClInclude Include="StringCon.h" />
+    <ClInclude Include="Token.h" />
+    <ClInclude Include="Word.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CharCon.cpp" />
+    <ClCompile Include="Lexer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Num.cpp" />
+    <ClCompile Include="StringCon.cpp" />
+    <ClCompile Include="Token.cpp" />
+    <ClCompile Include="Word.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
